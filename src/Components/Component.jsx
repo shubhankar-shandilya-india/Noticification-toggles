@@ -40,13 +40,6 @@ const Component = () => {
                 </table>
 
                 <button className='mb-2 w-full bg-blue-600 hover:bg-blue-500 py-2 font-medium text-white rounded-md'>Save Preferences</button>
-
-
-
-
-
-
-
             </div>
         </div>
     )
