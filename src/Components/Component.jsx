@@ -5,7 +5,7 @@ const Component = () => {
         <div className='w-full flex justify-center'>
             <div className='w-[90vw] sm:w-[70vw] md:w-[40vw] xl:w-[30vw] 2xl:w-[25vw] flex flex-col items-center ' >
                 <div className='text-4xl text-blue-900 font-bold my-5'>JACK&JONES</div>
-                <div className='bg-slate-400  h-[0.4px] w-full'></div>
+                <div className='bg-slate-200  h-px w-full'></div>
                 <div className='text-sm text-slate-500 my-1'>Noticification setting for</div>
                 <div className='font-semibold mb-1'>Customerid@gmail.com</div>
                 <div className='font-semibold mb-2'>+91 9876543210</div>
@@ -15,9 +15,9 @@ const Component = () => {
                 <table className="w-full mb-2 border-separate border-spacing-y-3 ">
                     <thead>
                         <tr>
-                            <td className=" text-center py-2 rounded-l-lg rounded-r-lg"></td>
-                            <td className=" text-center py-2 text-slate-500">Promotional</td>
-                            <td className=" text-center py-2 rounded-r-lg text-slate-500">Transactional</td>
+                            <td className=" text-center py-1 rounded-l-lg rounded-r-lg"></td>
+                            <td className=" text-center py-1 text-slate-500">Promotional</td>
+                            <td className=" text-center py-1 rounded-r-lg text-slate-500">Transactional</td>
                         </tr>
                     </thead>
                     <tbody className="">
