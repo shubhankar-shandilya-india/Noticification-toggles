@@ -39,7 +39,7 @@ const Component = () => {
                     </tbody>
                 </table>
 
-                <button className='mb-2 w-full bg-blue-600 hover:bg-blue-500 py-2 font-medium text-white rounded-md'>Save Preferences</button>
+                <button className=' px-6 transition duration-300 mb-2 w-full sm:w-fit bg-blue-600 hover:bg-blue-500 py-2 font-medium text-white rounded-md'>Save Preferences</button>
             </div>
         </div>
     )
