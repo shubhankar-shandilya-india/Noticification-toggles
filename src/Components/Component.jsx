@@ -1,10 +1,11 @@
 import ToggleSwitch from './ToggelSwitch';
+import logo from '../Assets/logo.png'
 
 const Component = () => {
     return (
         <div className='w-full flex justify-center'>
             <div className='w-[90vw] sm:w-[70vw] md:w-[40vw] xl:w-[30vw] 2xl:w-[25vw] flex flex-col items-center ' >
-                <div className='text-4xl text-blue-900 font-bold my-5'>JACK&JONES</div>
+                <img className='h-16 my-5' src={logo} alt="JACK&JONES" />
                 <div className='bg-slate-200  h-px w-full'></div>
                 <div className='text-sm text-slate-500 my-1'>Noticification setting for</div>
                 <div className='font-semibold mb-1'>Customerid@gmail.com</div>
